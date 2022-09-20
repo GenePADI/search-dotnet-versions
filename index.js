@@ -26,13 +26,11 @@ const versions = [ 'netcoreapp2', 'netcoreapp3', 'net5', 'net6' ];
     fs.writeFileSync(filename, header);
 
     if (enableBitBucket) {
-        console.log('bitbucket');
-        // await searchBitBucket(filename);
+        await searchBitBucket(filename);
     }
 
     if (enableGitHub) {
-        console.log('github');
-        // await searchGitHub(filename);
+        await searchGitHub(filename);
     }
 })();
 
