@@ -22,6 +22,6 @@ Start by installing dependencies by running `npm install` or `yarn`. Then run th
 
 ## References
 
-https://bitbucketjs.netlify.app
-https://github.com/octokit/octokit.js
-https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
+* https://bitbucketjs.netlify.app
+* https://github.com/octokit/octokit.js
+* https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
